@@ -6,27 +6,27 @@ https://satyakresna.gitbooks.io/csrf-ajax-dalam-codeigniter/content/ in bahasa. 
 
 ## Screenshots
 ### Homepage: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/homepage.png "Homepage") <br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/homepage.png "Homepage") <br>
 
 ### Dependent dropdown <br>
 #### Homepage: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/dependent%20dropdown.png "Dependent Dropdown homepage")<br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/dependent%20dropdown.png "Dependent Dropdown homepage")<br>
 #### Add: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/dependent%20dropdown%20add.png "Dependent Dropdown Add")<br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/dependent%20dropdown%20add.png "Dependent Dropdown Add")<br>
 #### Edit: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/dependent%20dropdown%20edit.png "Dependent Dropdown Edit")<br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/dependent%20dropdown%20edit.png "Dependent Dropdown Edit")<br>
 #### Delete: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/dependent%20dropdown%20delete.png "Dependent Dropdown Delete")<br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/dependent%20dropdown%20delete.png "Dependent Dropdown Delete")<br>
 
 ### Multidependent dropdown <br>
 #### Homepage: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/Multidependent%20dropdown.png "Multidependent dropdown homepage")<br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/Multidependent%20dropdown.png "Multidependent dropdown homepage")<br>
 #### Add: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/Multidependent%20dropdown%20add.png "Dependent Dropdown Add")<br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/Multidependent%20dropdown%20add.png "Dependent Dropdown Add")<br>
 #### Edit: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/Multidependent%20dropdown%20edit.png "Multidependent dropdown Edit")<br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/Multidependent%20dropdown%20edit.png "Multidependent dropdown Edit")<br>
 ### Delete: <br>
-![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/master/screenshots/Multidependent%20dropdown%20delete.png "Multidependent dropdown Delete")<br>
+![alt-text](https://github.com/satyakresna/crud-multidropdown/blob/new-cookie-plugin/screenshots/Multidependent%20dropdown%20delete.png "Multidependent dropdown Delete")<br>
 
 ## Short description
 This source code contain Dependent Dropdown and Multiple Dropdown. <br>
