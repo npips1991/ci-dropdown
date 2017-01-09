@@ -130,7 +130,7 @@ class Skkm extends CI_Controller {
     }
   }
 
-  public function hapus($id)
+  public function delete($id)
   {
     $row = $this->skkm->get_by_id($id);
 

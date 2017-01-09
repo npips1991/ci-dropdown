@@ -83,15 +83,19 @@
     </div>
 
     <script src="<?php echo base_url('assets/js/jquery.min.js'); ?>" charset="utf-8"></script>
+    <!-- So, for make CSRF working properly in AJAX use cookie plugin -->
+    <script src="<?php echo base_url('assets/js/jquery.cookie.js'); ?>" charset="utf-8"></script>
     <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>" charset="utf-8"></script>
     <script>
     /* Ajax Dropdown Jenis Tingkat */
     function getTingkat(value) {
       var value = value;
+      var csrf = $.cookie('csrf_cookie');
       $.ajax({
         type: "POST",
         url: "<?php echo site_url('skkm/get_tingkat');?>",
-        data: {value},
+        // Add csrf token
+        data: {value, csrf_token: csrf},
         success: function(data) {
           $("#prestasi option:gt(0)").remove();
           $("#tingkat").html(data);
@@ -107,10 +111,12 @@
     /* Ajax Dropdown Tingkat Prestasi */
     function getPrestasi(value) {
       var value = value;
+      var csrf = $.cookie('csrf_cookie');
       $.ajax({
         type: "POST",
         url: "<?php echo site_url('skkm/get_prestasi');?>",
-        data:{value},
+        // Add csrf token
+        data:{value, csrf_token: csrf},
         success: function(data) {
           $("#prestasi").html(data);
           $("#nilai").val("");
@@ -125,10 +131,12 @@
     /* Ajax Dropdown Prestasi Nilai */
     function getNilai(value) {
       var value = value;
+      var csrf = $.cookie('csrf_cookie');
       $.ajax({
         type: "POST",
         url: "<?php echo site_url('skkm/get_nilai');?>",
-        data: {value},
+        // Add csrf token
+        data: {value, csrf_token: csrf},
         success: function(data) {
           document.getElementById('nilai').value = data;
         },
